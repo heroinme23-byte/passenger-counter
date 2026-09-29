@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "container">
+            <h1>People entered:</h1>
+            <h2 id="count-el">0</h2>
+            <div class = "increase_save">
+                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
+            <div>
+                <button id="total-btn" onclick="showTotal()">TOTAL</button>
+            </div>
+            <p id="save-el">Previous entires: </p>
+            <p id="total-el"></p>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>

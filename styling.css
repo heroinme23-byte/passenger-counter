@@ -1,0 +1,87 @@
+body {
+    background-size: cover;
+    font-family: Poppins, 'Segoe UI', sans-serif, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ba6ea;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("WP4.jpg");
+    color: white;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    font-size: 200px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    border: none;
+    padding: 30px 0 30px 0;
+    color: white;
+    font-weight: bolder;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+}
+
+#increment-btn {
+    background: darkred;
+    margin-right: 20px;
+    box-shadow: 0 5px 14px rgba(139, 0, 0, 0.55)
+}
+
+#save-btn {
+    background: darkgreen;
+    box-shadow: 0 5px 14px rgba(0, 100, 0, 0.55);
+}
+
+#increment-btn:hover,
+#save-btn:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+#total-btn {
+    background: navy;
+    width: 100px;
+    padding: 20px 0 20px 0;
+
+}
+
+#total-el {
+    font-size: 40px;
+}
+
+.increase_save {
+    margin-bottom: 10px;
+}
+
+
+
+
+
